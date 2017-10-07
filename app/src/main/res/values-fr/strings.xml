@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ContactsSaver</string>
+    <string name="RBT_SAVE_TEXT">Sauvegarder</string>
+    <string name="RBT_LOAD_TEXT">Charger</string>
+    <string name="EDT_HINT_TEXT">Collez le résultat ici...</string>
+    <string name="BT_LAUNCH_TEXT">Lancer</string>
+    <string name="CBX_ENCRYPTED_TEXT">Crypté</string>
+    <string name="ENCRYPT_DIALOG_TITLE">Cryptage</string>
+    <string name="ENCRYPT_DIALOG_TEXT">Entrez un mot de passe (laisser vide si vous ne voulez pas le crypter)</string>
+    <string name="ENCRYPT_DIALOG_OK">Crypter</string>
+    <string name="DECRYPT_DIALOG_TITLE">Décryptage</string>
+    <string name="DECRYPT_DIALOG_TEXT">Entrez un mot de passe (laisser vide si le message n\'est pas crypté)</string>
+    <string name="DECRYPT_DIALOG_OK">Décrypter</string>
+    <string name="ClipboardConfirmaion">Les données ont été ajoutées au presse-papier.</string>
+    <string name="READY_TO_SEND_TITLE">C\'est presque terminé !</string>
+    <string name="READY_TO_SEND_TEXT">Les données sont prêtes à être envoyées ! Elles ont été copiées dans le presse-papier et vous êtes invité à vous l\'auto-envoyer par mail !</string>
+    <string name="CRYPTO_ERROR_TOAST">Une erreur est survenue lors du cryptage. Les données n\'ont pas pu être cryptées.</string>
+    <string name="CLEAR_DATA_EMPTY">Erreur : Vérifiez votre clé de décryptage.</string>
+    <string name="CLEAR_DATA_INCONFORM">Erreur : Le texte est illisible. Vérifiez votre clé de décryptage.</string>
+    <string name="NO_CONTACT_TO_ADD">Aucun contact n\'est disponible à l\'ajout.</string>
+    <string name="CBX_SELECT_ALL">Tout sélectionner/désélectionner</string>
+    <string name="CHOOSE_DIALOG_TITLE">Choisissez les contacts</string>
+    <string name="CHOOSE_DIALOG_BUTTON">Ok</string>
+
+</resources>

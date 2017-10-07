@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fr.trainz.ppr.contactssaver.MainActivity"
+    android:weightSum="1">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical">
+
+    <RadioGroup
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/RBT_LOAD"
+            android:text="@string/RBT_LOAD_TEXT"
+            android:checked="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"/>
+
+        <RadioButton
+            android:id="@+id/RBT_SAVE"
+            android:checked="false"
+            android:text="@string/RBT_SAVE_TEXT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"/>
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/ETX"
+        android:hint="@string/EDT_HINT_TEXT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+    android:id="@+id/BT_LAUNCH"
+    android:text="@string/BT_LAUNCH_TEXT"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>
+

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ContactsSaver</string>
+    <string name="RBT_SAVE_TEXT">Save</string>
+    <string name="RBT_LOAD_TEXT">Load</string>
+    <string name="EDT_HINT_TEXT">Paste the encoded text here...</string>
+    <string name="BT_LAUNCH_TEXT">Launch</string>
+    <string name="CBX_ENCRYPTED_TEXT">Encrypted</string>
+    <string name="ENCRYPT_DIALOG_TITLE">Encryption</string>
+    <string name="ENCRYPT_DIALOG_TEXT">Enter a password (let it empty if no encryption is required)</string>
+    <string name="ENCRYPT_DIALOG_OK">Encrypt</string>
+    <string name="DECRYPT_DIALOG_TITLE">Decryption</string>
+    <string name="DECRYPT_DIALOG_TEXT">Enter a password (let it empty if no encryption was set)</string>
+    <string name="DECRYPT_DIALOG_OK">Decrypt</string>
+    <string name="ClipboardConfirmaion">Data added to the clipboard</string>
+    <string name="READY_TO_SEND_TITLE">Almost finished !</string>
+    <string name="READY_TO_SEND_TEXT">Data ready to be sent ! Data copied to the clipboard and now it\'s time to send it to yourself by Email !</string>
+    <string name="CRYPTO_ERROR_TOAST">Encryption error. Data could not be encrypted.</string>
+    <string name="CLEAR_DATA_EMPTY">Error. Please verify that the password you enter is the same as the password you entered during the encryption.</string>
+    <string name="CLEAR_DATA_INCONFORM">Error. Please verify that the password you enter is the same as the password you entered during the encryption.</string>
+    <string name="NO_CONTACT_TO_ADD">Error : No new contact available.</string>
+    <string name="CBX_SELECT_ALL">Select/deselect everyone</string>
+    <string name="CHOOSE_DIALOG_TITLE">Choose the contacts</string>
+    <string name="CHOOSE_DIALOG_BUTTON">Ok</string>
+</resources>
